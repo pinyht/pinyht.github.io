@@ -11,10 +11,10 @@
     
     <item>
       <title>Linux下Oracle定时自动备份方案</title>
-      <link>https://pinyht.github.io/2020/01/oracle_backup/</link>
+      <link>https://pinyht.github.io/2020/01/oracle-backup/</link>
       <pubDate>Sun, 12 Jan 2020 23:04:25 +0800</pubDate>
       
-      <guid>https://pinyht.github.io/2020/01/oracle_backup/</guid>
+      <guid>https://pinyht.github.io/2020/01/oracle-backup/</guid>
       <description>&lt;p&gt;公司业务系统数据库是Oracle 11g，以前用的备份方案是用imp，但是这个方案的速度相对比较慢，最近经过研究，打算将备份方案改写为expdp形式，记录一下操作过程&lt;/p&gt;</description>
     </item>
     
