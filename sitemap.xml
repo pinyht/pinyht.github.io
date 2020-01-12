@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pinyht.githug.io/about/</loc>
+    <loc>https://pinyht.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.githug.io/</loc>
+    <loc>https://pinyht.github.io/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.githug.io/categories/</loc>
+    <loc>https://pinyht.github.io/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.githug.io/series/</loc>
+    <loc>https://pinyht.github.io/series/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.githug.io/tags/</loc>
+    <loc>https://pinyht.github.io/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
