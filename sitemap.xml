@@ -3,91 +3,91 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pinyht.com/categories/</loc>
+    <loc>http://pinyht.com/categories/</loc>
     <lastmod>2020-01-12T23:04:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/tags/linux/</loc>
+    <loc>http://pinyht.com/tags/linux/</loc>
     <lastmod>2020-01-12T23:04:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/2020/01/oracle_backup/</loc>
+    <loc>http://pinyht.com/2020/01/oracle_backup/</loc>
     <lastmod>2020-01-12T23:04:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/categories/oracle/</loc>
+    <loc>http://pinyht.com/categories/oracle/</loc>
     <lastmod>2020-01-12T23:04:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/tags/oracle/</loc>
+    <loc>http://pinyht.com/tags/oracle/</loc>
     <lastmod>2020-01-12T23:04:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/</loc>
+    <loc>http://pinyht.com/</loc>
     <lastmod>2020-01-12T23:04:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/posts/</loc>
+    <loc>http://pinyht.com/posts/</loc>
     <lastmod>2020-01-12T23:04:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/tags/</loc>
+    <loc>http://pinyht.com/tags/</loc>
     <lastmod>2020-01-12T23:04:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/tags/%E5%A4%87%E4%BB%BD/</loc>
+    <loc>http://pinyht.com/tags/%E5%A4%87%E4%BB%BD/</loc>
     <lastmod>2020-01-12T23:04:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/categories/%E6%9D%82%E8%B0%88/</loc>
+    <loc>http://pinyht.com/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2020-01-12T21:49:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/2020/01/first/</loc>
+    <loc>http://pinyht.com/2020/01/first/</loc>
     <lastmod>2020-01-12T21:49:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/about/</loc>
+    <loc>http://pinyht.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://pinyht.com/series/</loc>
+    <loc>http://pinyht.com/series/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
