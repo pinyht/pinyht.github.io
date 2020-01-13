@@ -1,0 +1,24 @@
+pre:before {
+  height: 0px;
+  background: #f6f6f6 !important;
+}
+pre {
+  padding: 0px 10px 0 10px;
+  background: #f6f6f6 !important;
+}
+pre:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: none;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 15px;
+  margin-top: 11px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.hljs {
+  background: #f6f6f6 !important;
+}
