@@ -25,7 +25,7 @@
   
   <meta name="description" content="公司业务系统数据库是Oracle 11g，以前用的备份方案是用imp，但是这个方案的速度相对比较慢，最近经过研究，打算将备份方案改写为expdp形式，记录一下操作过程
 " />
-  <meta name="generator" content="Hugo 0.62.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
   <title>Linux下Oracle定时自动备份方案 - pinyht&#39;s Blog</title>
   
   
@@ -265,9 +265,9 @@
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p>公司业务系统数据库是Oracle 11g，以前用的备份方案是用imp，但是这个方案的速度相对比较慢，最近经过研究，打算将备份方案改写为expdp形式，记录一下操作过程</p>
-<h2 id="heading">服务器关系</h2>
+<h2 id="服务器关系">服务器关系</h2>
 <p>两台服务器用作备份，包含正式环境服务器跟备份服务器，正式环境每天凌晨3点定时通过expdp导出全库，再用scp传输至备份服务器存档</p>
-<h2 id="scp">实现scp免密码传输</h2>
+<h2 id="实现scp免密码传输">实现scp免密码传输</h2>
 <p>直接运行scp传输命令，会提示输入密码，要实现无人值守定时运行，就需要让两台服务器的交互能够自动免密，在此通过建立ssh信任关系的方法来实现
 在正式服务器上执行ssh证书生成命令</p>
 <pre><code>ssh-keygen -t rsa
@@ -279,7 +279,7 @@
 <pre><code>scp ./aaa root@192.168.x.x:/root/
 </code></pre>
 <p>现在已经不需要输入密码了，scp免密码传输已经成功</p>
-<h2 id="oracle">Oracle数据库新建虚拟目录</h2>
+<h2 id="oracle数据库新建虚拟目录">Oracle数据库新建虚拟目录</h2>
 <p>新建临时备份文件存储目录</p>
 <pre><code>mkdir /home/oradp
 </code></pre>
@@ -301,7 +301,7 @@ create directory dpdata as '/shell';
 <pre><code>grant read,write on directory dpdata to cmsxx;
 </code></pre>
 <p>Oracle数据库虚拟目录创建成功</p>
-<h2 id="heading-1">编写自动备份脚本</h2>
+<h2 id="编写自动备份脚本">编写自动备份脚本</h2>
 <p>编写自动备份的shell脚本供定时任务使用，在正式服务器下新建脚本存储目录</p>
 <pre><code>mkdir /shell
 </code></pre>
@@ -361,7 +361,7 @@ echo &quot;-- $(date +'%Y-%m-%d %H:%M:%S') 自动备份数据库并压缩结束 
 <p>给自动备份脚本增加执行权限</p>
 <pre><code>chmod +x /shell/backup_oracle.sh
 </code></pre>
-<h2 id="heading-2">将自动备份脚本加入定时任务</h2>
+<h2 id="将自动备份脚本加入定时任务">将自动备份脚本加入定时任务</h2>
 <pre><code>crontab -e
 </code></pre>
 <pre><code>#凌晨1点备份
